@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #0b3c5d;
+  --color-brand-navy-dark: #082d47;
+  --color-brand-navy-light: #0e4d78;
+  --color-brand-blue: #328cc1;
+  --color-brand-blue-light: #5aacd4;
+  --color-brand-blue-pale: #d0e8f5;
+  --color-brand-gold: #d9b310;
+  --color-brand-gold-light: #f0d060;
+  --color-brand-gold-pale: #fdf5d0;
+  --color-brand-bg: #f4f6f8;
+  --color-brand-surface: #ffffff;
+  --color-brand-border: #dde3ea;
+  --color-brand-border-mid: #c8d0da;
+  --color-brand-text: #1f2a44;
+  --color-brand-text-mid: #4a5568;
+  --color-brand-text-light: #8896a8;
+  --color-brand-positive: #2d7d46;
+  --color-brand-negative: #c0392b;
+  --color-brand-neutral: #7f8c9a;
+
+  --font-sans: "IBM Plex Sans", "Trebuchet MS", sans-serif;
+  --font-serif: "IBM Plex Serif", "Georgia", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-sans antialiased;
+  }
+}
+
+/* Custom scrollbar matched to consulting theme */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-border-mid);
+  border-radius: 3px;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.page-enter {
+  animation: fadeSlide 0.25s ease forwards;
+}
