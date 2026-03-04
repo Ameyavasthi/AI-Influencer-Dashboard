@@ -102,7 +102,7 @@ pages/
 Dashboard Creator & Data Analyst
 
 LinkedIn:
-https://linkedin.com/in/YOUR-LINK
+https://linkedin.com/in/amey-avasthi
 
 GitHub:
 https://github.com/Ameyavasthi
