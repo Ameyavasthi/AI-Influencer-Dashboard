@@ -1,66 +1,120 @@
-= # AI Influencer Consulting Dashboard
+# AI Influencer Analytics Dashboard
 
-A production-grade, highly responsive, and modular React analytics dashboard. Built with React, Recharts, and Tailwind CSS v4, this dashboard is designed for consulting firms (McKinsey, Deloitte, BCG aesthetics) to analyze the AI Influencer market.
+A professional data analytics dashboard analyzing the global **AI Influencer Industry**, including market growth, regional adoption, monetization models, and performance comparisons between AI and human influencers.
+
+This dashboard presents insights in a **consulting-style executive analytics interface** designed for business decision-makers.
+
+---
+
+## Live Dashboard
+
+Access the live dashboard here:
+
+https://ai-influencer-dashboard.vercel.app
+
+---
+
+## Project Overview
+
+The AI influencer industry is rapidly growing as brands adopt virtual personalities powered by generative AI.
+
+This analytics dashboard visualizes key trends including:
+
+* Global AI influencer market growth
+* Industry segmentation
+* Regional adoption patterns
+* AI vs Human influencer performance
+* Monetization strategies
+* Future market forecasts
+
+The goal of this project is to demonstrate **data analysis, dashboard design, and business insights** using modern frontend visualization tools.
+
+---
+
+## Dashboard Pages
+
+### Industry Overview
+
+High-level KPIs and global market growth trends.
+
+### Market Segmentation
+
+Breakdown of influencer segments across industries.
+
+### Regional Adoption
+
+Analysis of global adoption of AI influencers by region.
+
+### Performance Comparison
+
+Comparison between AI influencers and human influencers across engagement and scalability metrics.
+
+### Monetization Models
+
+How AI influencers generate revenue through brand partnerships, affiliate marketing, subscriptions, and digital products.
+
+### Future Forecast
+
+Projected market growth and industry expansion through 2032.
+
+### About
+
+Information about the dashboard creator and project background.
+
+---
+
+## Tech Stack
+
+* React
+* Vite
+* Recharts
+* JavaScript
+* CSS
+* Data Visualization
+
+---
 
 ## Features
 
-- **Consulting-Grade UI/UX:** Clean typography (IBM Plex), exact spacing, subtle shadows, and a sophisticated color palette.
-- **Fully Responsive:**
-  - **Mobile (< 640px):** Hamburger menu, stacked charts, single-column KPI metrics.
-  - **Tablet (640px - 1024px):** Dual-column KPIs, accessible sidebar navigation.
-  - **Desktop (> 1024px):** Fixed 260px sidebar, powerful 4-6 column grids, up to 1600px max-width scaling.
-- **Dynamic Charts:** All Recharts implement `ResponsiveContainer` to fluidly resize without horizontal scrolling.
-- **Modular Architecture:**
-  - `src/components/ui/` for granular parts like `KPI`, `Panel`, `Badge`, `ProgressBar`.
-  - `src/layouts/` for controlling the flexible page shell and responsive sidebar.
-  - `src/pages/` for isolated route views.
-  - `src/data/` for clean separation of theme constants and mock datasets.
+* Executive-level analytics dashboard
+* Interactive charts and data visualizations
+* Responsive layout for desktop and mobile
+* Consulting-style UI design
+* Modular React component structure
 
-## Development
+---
 
-Install dependencies and start the development server:
+## Project Structure
 
-```bash
-# Install packages
-npm install
+src/
+components/
+charts/
+data/
+layouts/
+pages/
 
-# Start the local development server (http://localhost:5173 by default)
-npm run dev
-```
+---
 
-## Production Deployment (Vercel / GitHub)
+## Author
 
-This application is powered by Vite. It is optimized and ready for immediate deployment.
+**Amey S. Avasthi**
 
-### 1. Build locally
+Dashboard Creator & Data Analyst
 
-To verify the production build works locally:
+LinkedIn:
+https://linkedin.com/in/YOUR-LINK
 
-```bash
-npm run build
-npm run preview
-```
+GitHub:
+https://github.com/Ameyavasthi
 
-### 2. Deploy to GitHub
+---
 
-Initialize your git repository and push to GitHub:
+## Project Purpose
 
-```bash
-git init
-git add .
-git commit -m "Initial commit: AI Influencer Dashboard"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
+This dashboard was created as part of a research and data analytics project exploring the emerging **AI Influencer ecosystem** and its impact on digital marketing.
 
-### 3. Deploy to Vercel
+---
 
-Vercel has zero-configuration support for Vite projects.
+## License
 
-1. Go to [Vercel](https://vercel.com).
-2. Click **Add New Project** and select your GitHub repository.
-3. Vercel will automatically detect the **Vite** framework.
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-4. Click **Deploy**. Your professional analytics dashboard will be live in seconds.
+This project is open for educational and portfolio purposes.
